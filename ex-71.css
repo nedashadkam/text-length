@@ -1,0 +1,33 @@
+div {
+    background-color: beige;
+    border: 1px solid darkgray;
+    width: 30%;
+    padding: 2%;
+    text-align: center;
+    margin-left: 33%;
+    margin-top: 30vh;
+}
+
+input {
+    margin: 10px;
+    background-color: aliceblue;
+    border: 1px solid darkgray;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: 1px solid darkgray;
+}
+
+input:hover , button:hover {
+    box-shadow: 0px 0px 1px 1px rgb(214, 214, 214);
+}
+
+button {
+    margin: 15px;
+    background-color: burlywood;
+    border: 1px solid darkgoldenrod;
+    border-radius: 5px;
+    padding: 3px;
+}

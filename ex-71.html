@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="ex-71.css">
+
+</head>
+
+<body>
+
+    <div>
+
+        <label for="text">Write the desired text</label>
+        <input id="text">
+
+        <button onclick="output()">Click to calculate the length of the text</button>
+
+        <p id="demo"></p>
+
+    </div>
+
+    <script>
+
+        function output() {
+
+            let text = document.getElementById("text").value;
+
+            document.getElementById("demo").innerHTML = text.length;
+
+        }
+
+    </script>
+
+</body>
+
+</html>
